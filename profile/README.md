@@ -39,7 +39,7 @@ It targets [**AMD "Strix Halo"** APUs](https://www.amd.com/en/products/processor
 
 ## Status
 
-v1.0 release candidate. Release pipeline (cosign keyless OIDC, signed tarball, `releases.hal0.dev` manifest) is wired end-to-end; first tag-push pending. See [`hal0/PLAN.md`](https://github.com/Hal0ai/hal0/blob/main/PLAN.md) for the live milestone view.
+**v0.1.0-alpha** — shipping. The cosign-keyless-OIDC release pipeline is wired end-to-end (signed tarball + Fulcio cert + manifest, self-verified before publish), and the one-line install actually installs. Expect rough edges: APIs may shift across 0.1.x alpha tags, no upgrade compatibility promised yet. See [`hal0/PLAN.md`](https://github.com/Hal0ai/hal0/blob/main/PLAN.md) for the path to v1.0.
 
 ## Community & contact
 
