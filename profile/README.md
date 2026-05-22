@@ -26,7 +26,6 @@ It targets [**AMD "Strix Halo"** APUs](https://www.amd.com/en/products/processor
 | Repo | What it is |
 | :--- | :--- |
 | **[`hal0`](https://github.com/Hal0ai/hal0)** | The platform: orchestrator, slot lifecycle, dispatcher, dashboard, installer. Python (FastAPI) + Vue 3 + systemd. Apache-2.0. |
-| **[`hal0-web`](https://github.com/Hal0ai/hal0-web)** | [hal0.dev](https://hal0.dev) — marketing site + Starlight docs. Astro + Tailwind v4. |
 | **[`amd-strix-halo-toolboxes`](https://github.com/Hal0ai/amd-strix-halo-toolboxes)** | Friendly fork of [`kyuz0/amd-strix-halo-toolboxes`](https://github.com/kyuz0/amd-strix-halo-toolboxes) — adds `*-server` images (ENTRYPOINT=`llama-server`) so SlotManager can run them as systemd services. Published to GHCR at `ghcr.io/hal0ai/`. |
 
 ## Design tenets
